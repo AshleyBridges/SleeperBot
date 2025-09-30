@@ -6,3 +6,4 @@ testing-files/
 !tasks/example.bat
 
 *.json
+*.pyc

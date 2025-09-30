@@ -1,16 +1,20 @@
 # SleeperBot
 
+This utilizes the [Sleeper API](https://docs.sleeper.com/) to pull information from Sleeper Fantasy Football leagues and share via Slackbot, to keep players engaged all season long!
+
+Can be run on a PC with scheduled tasks set to execute a .bat file. Sample .bat file included. 
+Invoke via command line with python domino_sleeperbot.py --task \<taskname\> --league \<leagueid\>
+
 ## Current Schedule
-- Thursday: 
-     - 9am PT weekly challenge
-     - 9:15am PT Matchups for the week
+- Wednesday:
+     - 9am PT: Weekly Challenge
+- Thursday:
+     - 8am PT: Weekly Matchups
 - Friday:
-     - 9am PT Scores
-- Sunday:
-     - 4pm PT Close games. 
+     - 8am PT: Score Updates
 - Monday: 
-     - 9am PT Scores
-     - 11am PT Close Games. 
+     - 8am PT: Score Updates
+     - 11am PT: Close Games
 - Tuesday: 
-     - 9am Final scores
-     - 9:30am PT league standing.
+     - 8am PT: Final Scores
+     - 9am PT: Updated League Standings
