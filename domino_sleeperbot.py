@@ -8,21 +8,21 @@ from config import WEBHOOK_URL, leagues
 
 weekly_challenge = {
     1: '*New Season, Still Bad* - Lowest final score.',
-    2: '*The Icarus Award* - Largest negative point differential from last week to this week.',
-    3: '*Benchwarmer* - Most total points on the bench.',
-    4: '*Run Like the Wind* - Highest total rushing yards from their RB1 and RB2 positions.',
-    5: '*Dead Weight* - Lowest scoring starting player in a win.',
-    6: '*The Atlanta Falcons Blew a 28-3 Lead in the Third Quarter* - Highest scoring losing team.',
-    7: '*Nailed It* - The team that scores closest to its projected point total (over or under).',
-    8: '*The Art of Losing* - Largest margin of loss.',
-    9: '*Photo Finish* - Smallest margin of victory.',
-    10: '*Full Send* - Starting QB with the longest passing TD.',
-    11: '*You Got Mossed* - Team with the most WR receptions (WR1 and WR2 only).',
-    12: '*So Close, But So Far* - Closest margin of loss.',
-    13: '*Veteran Rest* - Highest scoring non-QB player on the bench.',
-    14: '*Playoff Run* - Highest overachieving performance over the projected total.',
-    15: '*Defense Wins Championships* - Highest scoring defense.',
-    16: '*Peyton Manning Award* - Most offensive touchdowns scored (starters only).'
+    2: '*The Icarus Award* - Largest negative point drop from previous week\'s score.',
+    3: '*Bell Cow* - Highest total scrimmage yards (Rushing + Receiving) by a starting RB1.',
+    4: '*Dead Weight* - Lowest-scoring individual starting player in a win.',
+    5: '*The Heartbreak Kid* - Highest-scoring losing team of the week.',
+    6: '*Nailed It* - The team that scores closest to its projected point total (over or under).',
+    7: '*The Art of Losing* - Largest margin of loss.',
+    8: '*Photo Finish* - Smallest margin of victory.',
+    9: '*Full Send* - Starting QB with the longest passing TD.',
+    10: '*Veteran Rest* - Highest scoring non-QB player on the bench.',
+    11: '*Deep Threat* - Highest total receiving yards from starting WR1 + WR2.',
+    12: '*Shoulda, Woulda, Coulda* - Smallest margin of loss.',
+    13: '*No Fly Zone* - Highest-scoring starting DST.',
+    14: '*Garbage Time Heroes* - Highest scoring team NOT headed to the playoffs.',
+    15: '*Peyton Manning Award* - Most offensive touchdowns scored by starters.',
+    16: '*Legatron* - Starting kicker with the longest made field goal.'
 }
 
 # Some other things we need to know
